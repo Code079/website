@@ -3,10 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import Home from "./Home";
+import Navbar from "./Navbar";
 import * as serviceWorker from "./serviceWorker";
 
-ReactDOM.render(<Home />, document.getElementById("root"));
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Navbar />, document.getElementById("header"));
+ReactDOM.render(<Home />, document.getElementById("body"));
+//ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
