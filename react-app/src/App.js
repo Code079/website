@@ -6,8 +6,12 @@ import Body from "./components/Body";
 function App() {
   return (
     <div>
-      <Body />
-      <Header />
+      <div class="viewone">
+        <Header />
+      </div>
+      <div class="viewtwo">
+        <Body />
+      </div>
     </div>
   );
 }

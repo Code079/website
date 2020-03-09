@@ -6,8 +6,7 @@ import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <div>
-      <img class="head" src={Front} alt="Head"></img>
+    <div class="head">
       <div class="header">
         <img class="logo" src={LogoPTN} alt="Logo"></img>
         <Navbar />

@@ -1,8 +1,6 @@
 .maindiv {
   color: grey;
-  height: 1080px;
-  position: absolute;
-  top: 941px;
+  position: relative;
   background-color: rgb(29, 29, 29);
   width: 100%;
 }
