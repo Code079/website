@@ -1,0 +1,37 @@
+.menu {
+  position: relative;
+  list-style-type: none;
+  padding: 0px;
+}
+li {
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  display: inline;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -ms-transform: translateX(-70%);
+  transform: translateX(-70%);
+}
+li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding-left: 130px;
+  font-size: 16pt;
+  font-family: Bahnschrift;
+}
+li a:hover {
+  text-decoration: none;
+  color: red;
+}
+li a:active {
+  text-decoration: none;
+  color: white;
+}
